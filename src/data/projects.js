@@ -1,47 +1,35 @@
-// TODO Add a couple lines about each project
 const data = [
   {
-    title: 'Nearest Dollar',
-    subtitle: '2015 BVP Hackathon',
-    image: '/images/projects/nearestdollar.jpg',
-    date: '2015-11-20',
+    title: 'AnyPlace: Learning Generalized Object Placement for Robot Manipulation',
+    link: 'https://any-place.github.io/',
+    image: '/images/projects/anyplace.png',
+    date: '2025-02-05',
     desc:
-      'Built for a social impact hackathon. '
-      + 'NearestDollar connected to your bank accounts, credit cards, '
-      + 'or debit cards and rounded up your purchases to donate the balance to '
-      + 'the charity of your choice.',
+      'We propose AnyPlace, a two-stage method trained entirely on synthetic data, capable of predicting a wide range of feasible placement poses for real-world tasks. ',
   },
   {
-    title: 'Harvest',
-    subtitle: 'Won 3rd. place in 2015 Techcrunch Disrupt SF Hackathon',
-    link: 'https://devpost.com/software/harvest',
-    image: '/images/projects/harvest.jpg',
-    date: '2015-09-20',
+    title: 'ORGANA: A Robotic Assistant for Automated Chemistry Experimentation and Characterization - Accepted by Matter Journal',
+    link: 'https://ac-rad.github.io/organa/',
+    image: '/images/projects/organa.png',
+    date: '2024-05',
     desc:
-      'Won ~ $7000 in prizes for an advanced, low cost monitoring solution '
-      + 'for crops. Harvest was designed to catch irrigation leaks, overwatering, '
-      + 'and nutrient deficiencies at an affordable price for the developing world.',
+      'we propose a human-friendly and flexible robotic system, ORGANA, that automates a diverse set of chemistry experiments. It is capable of interacting with chemists in the lab through natural language, using Large Language Models (LLMs). ',
   },
   {
-    title: 'Space Potato',
-    subtitle: 'A kickstarter funded potato powered weather balloon.',
-    link: 'http://www.spacepotato.org',
-    image: '/images/projects/spacepotato.jpg',
-    date: '2015-06-28',
+    title: 'MVTrans: Multi-View Perception of Transparent Objects - Accepted by ICRA 2023',
+    link: 'https://ac-rad.github.io/MVTrans/',
+    image: '/images/projects/mvtrans.jpg',
+    date: '2023-02',
     desc:
-      'Launched a potato battery powered weather balloon with two cameras '
-      + 'and gps transponder. Resulting photos were published in a coffee table book. '
-      + 'You can email me for a copy.',
+      'Our proposed method, MVTrans, is an end-to-end multi-view architecture with multiple perception capabilities, including depth estimation, segmentation, and pose estimation. Additionally, we establish a novel procedural photo-realistic dataset generation pipeline and create a large-scale transparent object detection dataset, Syn-TODD, which is suitable for training networks with all three modalities, RGB-D, stereo and multi-view RGB. ',
   },
   {
-    title: 'Cat Detector',
-    subtitle: 'A convolutional neural network to classify cats! (and dogs)',
-    image: '/images/projects/catdetector.jpg',
-    date: '2015-05-15',
+    title: 'RoboFeeder: An Autonomous Robotic System for In-mouth Feeding with Closed-loop Control - Featured by Kinova Robotics',
+    link: 'https://www.kinovarobotics.com/resource/robofeeder-an-autonomous-robotic-system-for-in-mouth-feeding-with-closed-loop-control',
+    image: '/images/projects/robofeeder.png',
+    date: '2023-05',
     desc:
-      'Trained a convolutional neural network to classify between ~ 80 cats breeds. '
-      + 'Over 60,000 cats were classified before server bills made the project too expensive '
-      + 'to continue hosting.',
+      'RoboFeeder is a vision-based robot feeding system using a Gelsight tactile sensor and a Kinova Gen3 arm that can skewer food and feed people with disabilities.',
   },
 ];
 

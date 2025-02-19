@@ -1,20 +1,16 @@
 const routes = [
   {
     index: true,
-    label: "Michael D'Angelo",
+    label: 'Yuchi(Allan) Zhao',
     path: '/',
-  },
-  {
-    label: 'About',
-    path: '/about',
-  },
-  {
-    label: 'Resume',
-    path: '/resume',
   },
   {
     label: 'Projects',
     path: '/projects',
+  },
+  {
+    label: 'Resume',
+    path: '/resume',
   },
   {
     label: 'Stats',
